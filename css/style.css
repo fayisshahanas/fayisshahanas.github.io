@@ -14,7 +14,7 @@ header{
 
 }
 .header:hover{
-    box-shadow:#d0c7d894 0px 0px 7px 3px;
+    box-shadow:#d0c7d894 0px 0px 16px 4px;
 }
 .header{
     display: flex; 
@@ -24,6 +24,7 @@ header{
     background-color: rgba(255, 255, 255, 0.79);
     border-radius: 10px;
     padding: 5px;
+    box-shadow:#d0c7d894 0px 0px 7px 1px;
 }
 
 
@@ -165,13 +166,13 @@ header .btn-primary {
 .hero-ctn .icon i{
     font-size: 20px;
     color: #5E3F78;
-    background-color: #b4a7bf;
+    background:linear-gradient(1deg,#b4a7bf,#f2e6fc);
     padding: 10px 10px;
     border-radius: 10px;
     /* backdrop-filter: ; */
-
-    
-
+}
+.hero-ctn .icon i:hover{
+    background-color: #b4a7bf;
 }
 .heroflex{
     display: flex;
@@ -181,11 +182,12 @@ header .btn-primary {
     background: linear-gradient(1deg,#5E3F78,#ff8fe5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: moveGradient 5s ease infinite;
+    animation: moveGradient 5s infinite;
     font-weight: 600;
     font-size: 60px;
     height: 80px;
 }
+
 @keyframes moveGradient{
     0%{
         background-position: 0% 50%;
@@ -837,6 +839,12 @@ li{
     border: none;
     width: 100%;
 }
+/* .contact .submit-button button:hover{
+     
+            background-color: #f2e9fa;
+            border-color: purple;
+            color: #5E3F78;
+} */
 .contact .textarea{
     margin-left: -10px;
 }
