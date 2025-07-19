@@ -13,6 +13,9 @@ header{
    
 
 }
+.header ul li a:hover{
+    color: #5E3F78;
+}
 .header:hover{
     box-shadow:#d0c7d894 0px 0px 16px 4px;
 }
