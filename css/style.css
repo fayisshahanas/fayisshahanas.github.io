@@ -13,16 +13,16 @@ header{
    
 
 }
-header:hover{
+.header:hover{
     box-shadow:#d0c7d894 0px 0px 7px 3px;
 }
 .header{
     display: flex; 
     align-items: center;
-    justify-content: space-between;
-    height: 80px;
+    justify-content:space-between;
+    height: 60px;
     background-color: rgba(255, 255, 255, 0.79);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 
@@ -53,8 +53,9 @@ header .btn-primary {
         }
 
           .btn-primary:hover {
-            background-color: purple;
+            background-color: #f2e9fa;
             border-color: purple;
+            color: #5E3F78;
         }
 /* hero */
 #hero{
@@ -72,38 +73,47 @@ header .btn-primary {
 .hero-ctn{
     padding-top:215px;
 }
+.hero-ctn h2{
+    font-size: 30px;
+}
 .hero-image{
     padding-top: 50px;
 }
-.icon-position{
-    position: relative;
+
+.hero-ctn .icon{
+    padding-top: 30px;
+
 }
-.icon{
-    height: 10px;
-    width: 10px;
-}
-.icon>div{
-    position: absolute;
-}
-.insta{
-    right: 45%;
-    top: 0%;
+.hero-ctn  .btn-primary{
+            padding: 5px 5px;
+            
+            background-color:#5E3F78 ;
+            color: white;
+            border: 2px solid #5E3F78;
+        }
+
+          .hero-ctn  .btn-primary:hover {
+            background-color: #f2e9fa;
+            border-color: purple;
+        }
+
+
+/* .insta{
+    
     background: linear-gradient(1deg,#A999B6,white);
     border-radius: 100%;
     padding: 13px 15px;
     border:1px solid #5E3F78;
 }
 .li{
-    right: 32%;
-    top: 7%;
+    
     background: linear-gradient(1deg,#A999B6,white);
     border-radius: 100%;
     padding: 13px 15px;
     border:1px solid #5E3F78;
 }
 .git{
-    right: 23%;
-    top: 17%;
+   
     background: linear-gradient(1deg,#A999B6,white);
     border-radius: 100%;
     padding: 13px 15px;
@@ -111,22 +121,34 @@ header .btn-primary {
 
 }
 .wapp{
-    right: 18%;
-    top: 30%;
+    
     background: linear-gradient(1deg,#A999B6,white);
     border-radius: 100%;
     padding: 13px 15px;
     border:1px solid #5E3F78;
+} */
+.hero-ctn .icon i{
+    font-size: 20px;
+    color: #5E3F78;
+    background-color: #b4a7bf;
+    padding: 10px 10px;
+    border-radius: 10px;
+    /* backdrop-filter: ; */
+
+    
+
 }
-.icon i{
-    font-size: 30px;
+.heroflex{
+    display: flex;
+    justify-content: space-around;
 }
 .hero-ctn h1{
-    background: linear-gradient(1deg,#DE85C9,#5E3F78);
+    background: linear-gradient(1deg,#5E3F78,#ff8fe5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 60px;
+    height: 80px;
 }
 .hero-ctn i{
     font-size: 15px;
@@ -143,10 +165,16 @@ header .btn-primary {
     border-radius: 0 20px 20px 0;
     background-repeat: no-repeat;
 }
-.myimage{
+.hero-ctn .myimage{
     position: absolute;
     left: -200px;
     top: 70px;
+    
+}
+.hero-ctn .hero-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 78px;
     
 }
 
@@ -160,10 +188,15 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 	font-family: "Poppins", sans-serif;
 	background-color: #ffffff;
 	color: #202020;
-	
+	margin-bottom: 30px;
     
 }
-
+.section-services h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 44px;
+}
 .section-services .header-section {
 	margin-bottom: 34px;
 }
@@ -248,7 +281,7 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 	margin-bottom: 26px;
     width: 70px;
     height: 70px;
-    background-color: #5E3F78;
+    /* background-color: #5E3F78; */
     border-radius: 5px;
     line-height: 70px;
     text-align: center;
@@ -256,7 +289,11 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     font-size: 30px;
     transition: all .3s;
 }
-
+.section-services img{
+    background-color: white;
+    padding: 2px;
+    background-origin: 5px;
+}
 .section-services .single-service:hover .icon {
 	background-color: #fff;
 	color: #5E3F78;
@@ -283,7 +320,7 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 	color: #fff;
 }
 
-.section-services .single-service a {
+/* .section-services .single-service a {
 	position: relative;
 	font-size: 18px;
     color: #202020;
@@ -294,9 +331,9 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 
 .section-services .single-service:hover a {
 	color: #fff;
-}
+} */
 
-.section-services .single-service a:after {
+/* .section-services .single-service a:after {
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -309,7 +346,7 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 
 .section-services .single-service:hover a:after {
 	background-color: #fff;
-}
+} */
 
 
 
@@ -338,6 +375,20 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     font-size: 44px;
     
 }
+.about-me .paragraph{
+    /* padding-right: ; */
+}
+.about-me .btn-primary {
+            background-color:#5E3F78 ;
+            color: white;
+            border: 2px solid #5E3F78;
+        }
+
+          .btn-primary:hover {
+            background-color: #f2e9fa;
+            border-color: purple;
+            color: #5E3F78;
+        }
 .text{
     position: relative;
     background-color: white;
