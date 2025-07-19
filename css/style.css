@@ -13,7 +13,7 @@ header{
    
 
 }
-.header ul li:hover a{
+.header ul li:hover a {
     color: #5E3F78;
     text-decoration: underline;
     padding: 5px;
@@ -28,7 +28,7 @@ header{
     align-items: center;
     justify-content:space-between;
     height: 60px;
-    background-color: rgba(255, 255, 255, 0.79);
+    background-color: rgba(255, 255, 255, 0.951);
     border-radius: 10px;
     padding: 5px 13px;
     box-shadow:#d0c7d894 0px 0px 7px 1px;
@@ -127,6 +127,7 @@ header .btn-primary {
     padding-top: 30px;
 
 }
+
 .hero-ctn  .btn-primary{
             padding: 5px 5px;
             
