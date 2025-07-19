@@ -23,7 +23,7 @@ header{
     height: 60px;
     background-color: rgba(255, 255, 255, 0.79);
     border-radius: 10px;
-    padding: 5px;
+    padding: 5px 13px;
     box-shadow:#d0c7d894 0px 0px 7px 1px;
 }
 
@@ -171,7 +171,7 @@ header .btn-primary {
     border-radius: 10px;
     /* backdrop-filter: ; */
 }
-.hero-ctn .icon i:hover{
+.hero-ctn .icon:hover i{
     background-color: #b4a7bf;
 }
 .heroflex{
@@ -412,7 +412,10 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
      height: 100%;
      border-radius: 20px;
 }
-
+#about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .about-me{
     
     display: flex;
@@ -421,6 +424,7 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     align-items: center;
     border-radius: 20px;
     padding-top: 30px;
+    padding-bottom: 50px;
     height: 100%;
 }
 .about-me .paragraph{
@@ -527,7 +531,7 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
         .main .icon {
             color: #fff;
             background: #5E3F78 ;
-            font-size: 45px;
+            font-size: 30px;
             text-align: center;
             line-height: 105px;
             width: 100px;
@@ -690,7 +694,8 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     justify-content: center;
     align-items: center;
     gap: 4px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+    height: 100%;
     
 }
 .skills-ctn h3{
@@ -699,12 +704,15 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     font-weight: 600;
     font-style: normal;
     font-size: 44px;
+    padding: 50px;
+    height: 100%;
 }
 .skills-ctn .apps{
     background-color: #f2e9fa;
     border-radius: 20px;
     padding: 30px;
     height: 180px;
+
 }
 .skills-ctn .apps:hover {
     background-color: white;
@@ -721,7 +729,7 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     align-items: center;
     background-color: #5E3F78;
     border-radius: 20px;
-    padding:30px 15px ;
+    padding:30px 20px ;
 }
 .project-ctn img{
     border-radius: 20px;
@@ -755,15 +763,19 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     color: white;
     
 }
+.project-ctn{
+    height: 100%;
+}
 /* contact */
 #Contact{
     background-color:  #f2e9fa;
-    padding:30px ;
+    padding:30px  ;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .contact-ctn{
@@ -854,7 +866,7 @@ li{
 .foot1{
     background-color: #5E3F78;
     color: white;
-    padding: 30px;
+    padding: 70px 40px;
 }
 .foot1 a{
     color: white;
