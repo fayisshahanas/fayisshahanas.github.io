@@ -6,15 +6,19 @@
     <title>Document</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="responsive.css">
 <link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Noto+Sans+Malayalam:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="header container">
+        <div class=" container">
+            <div class="header">
             <div>
                 <a href="index.html">
                 <img src="img/logos.png" alt="" width="80%" height="80%">
@@ -26,24 +30,28 @@
                     <li><a href="home.html">Home</a></li>
                     <li><a href="services">Services</a></li>
                     <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Education</a></li>
+                    <li><a href="skills.html">Project</a></li>
                     <li><a href="skills.html">Skills</a></li>
-                    <li><a href="education">Education</a></li>
+                    <li><a href="education">contact</a></li>
                     
                 </ul>
             </nav>
-            <a href="#contact" class="btn btn-primary">Let's Connect</a>
+            <div class="respo"><a href="#contact" class="btn btn-primary">Let's Connect</a>
             <div class="toggle-bt">
                         <div></div>
                         <div></div>
                         <div></div>
                     </div>
+                </div>
+            </div>
         </div>
     </header>
     <section id="hero">
         <div class="container mt-80">
            <div class="heroflex ">
                 <div class="texthero">
-                    <div class="hero-ctn">
+                    <div class="hero-ctn mt-30" data-aos="fade-right"  data-aos-duration="1600">
                         <h2>Hello...</h2>
                         <h3>I am <span>Shahanas Salam</span></h3>
                         <h1>UI/UX Designer</h1>
@@ -52,7 +60,7 @@
                         <p style="padding-top: 10px; font-size: 20px; padding-bottom: 15px;">
                         Passionate about creating meaningful designs that improve people lives..</p>
                        <a href="#contact" class="btn btn-primary">Download cv</a>
-                        <div class="icon d-flex gap-4">
+                        <div class="icon d-flex gap-4"  data-aos="flip-left" data-aos-duration="1600">
                                 <div class="insta"><i class="fa-brands fa-instagram"></i></div>
                                 <div class="li"><i class="fa-brands fa-linkedin-in"></i></div>
                                 <div class="git"><i class="fa-brands fa-github"></i></div>
@@ -62,7 +70,7 @@
                 </div>
                 <div class="heropic">
                     <div class="hero-image mt-30">
-                        <div class="icon-position">
+                        <div class="icon-position"   data-aos="fade-left"  data-aos-duration="1600">
                             <img src="img/myimage.png" alt="">
                             
                         </div>
@@ -110,7 +118,7 @@
 				<h3>My Services</h3>
 				<!-- Single Service -->
 				<div class="col-md-4 col-lg-4">
-					<div class="single-service">
+					<div class="single-service" data-aos="fade-up" data-aos-duration="1600">
 						<div class="content">
 							<span class="icon">
 								<img src="img/uiux.png" alt="">
@@ -125,7 +133,7 @@
 				</div>
 				<!-- / End Single Service -->
 				<div class="col-md-4 col-lg-4">
-					<div class="single-service">
+					<div class="single-service" data-aos="fade-up" data-aos-duration="1600">
 						<div class="content">
 							<span class="icon">
 								<img src="img/app-logo.png" alt="">
@@ -139,7 +147,7 @@
 				</div>
 
                 <div class="col-md-4 col-lg-4">
-					<div class="single-service">
+					<div class="single-service" data-aos="fade-up" data-aos-duration="1600">
 						<div class="content">
 							<span class="icon">
 								<img src="img/web-logo.png" alt="">
@@ -166,16 +174,17 @@
         <div class="container ">
             <div class="about-me">
                 <h3>About Me</h3>
-                <div>
+                <div">
                     <img src="" alt="">
-                    <div class="text">
+                    <div class="text"  data-aos="zoom-in-left" data-aos-duration="1600">
                          <div class="paragraph">   <p >Welcome to my portfolio! </p>
-                            <p>I am Shahanas,a dedicated UI/UX Designer. My journey in design began with a facsination for how people interact with technology and a drive to make those interactions seamless and enjoyable. </p>
-                            <p>I believe good design isn't just about aesthetics; it's about empathy, functionality, and creating solutions that genuinely improve lives. From user research and wireframing to prototyping and pixel-perfect UI, I thrive on bringing ideas to life and transforming complex challenges into intuitive digital experiences.
+                            <p style="padding-top: 10px;">I am Shahanas,a dedicated UI/UX designer.I design clean,user-focused designs for web and mobile. </p>
+                            <p style="padding-top: 10px   ">Skilled in Figma, Photoshop, HTML, CSS, JS and Bootstrap, I turn ideas into intuitive  and beutiful digital experience.i blend creativity with usability to deliver designs that work.
                             </p>
+                            <p style="padding-top: 10px;">Strong understanding of user-centred design principles and responsive design.</p>
                         </div>
                          <a href="#contact" class="btn btn-primary">Download cv</a>
-                        <div class="image">
+                        <div class="image" >
                             <img src="img/picabout.png" alt="">
                         </div>
                     </div>
@@ -189,7 +198,7 @@
     <!-- Education -->
      <section id="education">
 
-<div class="edu-ctn mt-80">
+<div class="edu-ctn ">
     <h1>My Academic Details</h1>
     <div class="container">
         <div class="row">
@@ -231,30 +240,91 @@
 </div>
 
 </section>
+<!-- project -->
+    <section>
+        <div class=" container">
+            <div class="project-ctn">
+                <h3>My projects</h3>
+                <div class="row mt-30">
+                    <div class="col-md-6">
+                        <div class="work">
+                            <img src="img/mockup1.png" alt="">
+                            <div class="view">
+                                <p>View</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                         <div class="work">
+                            <img src="img/mockup2.png" alt="">
+                            <div class="view">
+                                <p>View</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
+        </div>
+    </section>
     <!-- skills -->
 
     <section id="skills">
-        
+        <div class="container">
+            <div class="skills-ctn mt-30"> 
+                <h3>Skills and Tools</h3>
+            <div class="row mt-30">
+                    <div class="col-md-4">
+                        <div class="apps">
+                            <img src="img/ps.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="apps">
+                            <img src="img/figma.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="apps">
+                            <img src="img/html.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-30">
+                    <div class="col-md-4">
+                        <div class="apps">
+                            <img src="img/css.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="apps">
+                            <img src="img/js.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="apps">
+                            <img src="img/bootstrap.png" alt="" width="100%" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
     </section>
 
-    <!-- project -->
-
-    <section id="myworks"></section>
+   
 
     <!-- contact -->
      <section id="Contact">
         <div class="container contact">
-            <div class="contact">
+            <div class="contact ">
                 <h3>Get Touch With Me</h3>
-                <div class="contact-ctn">
+                <div class="contact-ctn mt-30">
                     <div class="row">
                         <div class="col-md-6">
                             <div>
                                 <p>While I’m a fresher with limited experience, I sure have a passion for designing and a drive to learn and grow.
                                 I know it may be a challenge to take a chance on me. But, I believe that with my potential and dedication. I can become the best designer you could hire.</p>
-                                <div class="d-flex gap-4">
+                                <div class="d-flex gap-4 mt-30">
                                     <i class="fa-solid fa-phone"></i>
                                     <p>9809053747</p>
                                 </div>
@@ -269,7 +339,7 @@
                                     <h4>Have an upcoming project?</h4>
                                 <form action="mail.php" method="post">
                                     <div class="row">
-                                        <div class="col-md-6 ">
+                                        <div class="col-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1200">
                                             <div class="name-mail">
                                                 <ul>
                                                     <li> <input type="text" name="name" id="name" placeholder=" Name " class="name-input"> </li>
@@ -277,7 +347,7 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 ">
+                                        <div class="col-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1400">
                                             <div class="number-subject">
                                                 <ul>
                                                     <li> <input type="text" name="number" id="phone" placeholder=" Phone Number " class="number-input"> </li>
@@ -286,7 +356,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="message ">
+                                    <div class="message aos-init aos-animate" data-aos="fade-left" data-aos-duration="1600">
                                         <textarea name="message" id="message" placeholder="Message"></textarea>
                                     </div>
                                     <div class="submit-button">
@@ -305,18 +375,24 @@
         <div class="foot1">
             <div class="row">
                 <div class="col-md-4">
-                    <div>
+                    
+                        <img class="white" src="img/logos.png" alt="" width="10%">
+						<p style="width: 60%;">Passionate about creating meaningful designs that improve people lives..</p>
 
-                    </div>
+                    
                 </div>
                 <div class="col-md-4">
                     <div class="navi">
                         <h3>Quick Links</h3>
-                        <a href="home.html">Home</a>
-                        <a href="home.html">About</a>
-                        <a href="home.html">Services</a>
-                        <a href="home.html">Education</a>
-                        
+                        <div class="navigation">
+                            <a href="home.html">Home</a>
+                            <a href="home.html">Service</a>
+                            <a href="home.html">About</a>
+                             <a href="home.html">Education</a>
+                              <a href="home.html">Project</a>
+                               <a href="home.html">Skills</a>
+                            <a href="home.html">Contact</a>
+                         </div>   
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -329,12 +405,19 @@
                 </div>
             </div>
         </div>
-        <div class="foot2">
+        <div class="foot2 ">
             <p>@2025 all right reserved</p>
         </div>
      </footer>
+
+
+   
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/script.js"></script>
+    
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script src="js/script.js"></script>  <script>
+  AOS.init();
+    </script>
 </body>
 </html>

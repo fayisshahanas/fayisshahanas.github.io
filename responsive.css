@@ -26,7 +26,7 @@
         transition: 0.3s;
         opacity: 0;
     }
-    .head-2 nav ul.toggled{
+    .header nav ul.toggled{
       opacity: 1;
       left: 0;
     }
