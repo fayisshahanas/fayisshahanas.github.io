@@ -13,8 +13,12 @@ header{
    
 
 }
-.header ul li a:hover{
+.header ul li:hover a{
     color: #5E3F78;
+    text-decoration: underline;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
 }
 .header:hover{
     box-shadow:#d0c7d894 0px 0px 16px 4px;
