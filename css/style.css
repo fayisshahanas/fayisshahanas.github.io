@@ -179,7 +179,7 @@ header .btn-primary {
     border-radius: 10px;
     /* backdrop-filter: ; */
 }
-.hero-ctn .icon:hover i{
+.heroflex .icon i:hover{
     background-color: #b4a7bf;
 }
 .heroflex{

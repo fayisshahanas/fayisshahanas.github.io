@@ -1,20 +1,27 @@
 @media screen and (max-width:1299px){
-    
+    .text .image{
+      position: static;
+    }
 }
 @media screen and (max-width:1024px){
-    
+    .text .image{
+      position: static;
+    }
 }
 @media screen and (max-width:999px){
   nav ul{
     gap:19px;
   }
+  .text .image{
+      position: static;
+    }
   
 }
 @media screen and (max-width:767px){
       .header nav ul{
         display: none !important;
         display: flex;
-        height: 100vh;
+        height: auto;
         position: fixed;
         top: 0;
         left:-100vW;
@@ -34,13 +41,63 @@
     display: flex;
     z-index: 100;       
     }
-
-    
+    #hero{
+      height: auto;
+      width: auto;
+    }
+    .heroflex{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    .text{
+      margin-left: 0px;
+    }
+    .text .image{
+      position: static;
+    }
    
 }
 @media screen and (max-width:575px){
     
 }
 @media screen and (max-width:425px){
-    
+     .header nav ul{
+        display: none !important;
+        display: flex;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left:-100vW;
+        width: 100%;
+        background: grey;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.3s;
+        opacity: 0;
+    }
+    .header nav ul.toggled{
+      opacity: 1;
+      left: 0;
+    }
+    .toggle-bt{
+    display: flex;
+    z-index: 100;       
+    }
+    #hero{
+      height: auto;
+      width: auto;
+    }
+    .heroflex{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    .text{
+      margin-left: 0px;
+    }
+    .text .image{
+      position: static;
+    }
 }
