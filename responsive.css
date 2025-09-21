@@ -1,26 +1,48 @@
-@media screen and (max-width:1299px){
+@media screen and (max-width:1400px){
     .text .image{
       position: static;
     }
     #hero{
       height: auto;
     }
+   
+    .text{
+      margin-left: 0px;
+    }
+    .text .image {
+        position: static;
+        display: flex;
+
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 30px;
 }
-@media screen and (max-width:1024px){
+}
+@media screen and (max-width:1200px){
     .text .image{
       position: static;
     }
 }
-@media screen and (max-width:999px){
+@media screen and (max-width:995px){
   nav ul{
     gap:19px;
   }
-  .text .image{
-      position: static;
+ .text .image {
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
     }
-  
+    .hero-image img{
+      width: 100px;
+      width: 300px;
+    }
+    .hero-ctn{
+      padding-top: 50px;
+    }
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:762px){
       .header nav ul{
         display: none !important;
         display: flex;
@@ -62,89 +84,28 @@
    
 }
 @media screen and (max-width:575px){
+  #hero{
+      height: auto;
+      width: auto;
+    }
     
-}
-@media screen and (max-width:425px){
-     .header nav ul{
-        display: none !important;
-        display: flex;
-        height: auto;
-        position: fixed;
-        top: 0;
-        left:-100vW;
-        width: 100%;
-        background: grey;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        transition: 0.3s;
-        opacity: 0;
-    }
-    .header nav ul.toggled{
-      opacity: 1;
-      left: 0;
-    }
-    .toggle-bt{
-    display: flex;
-    z-index: 100;       
-    }
-    #hero{
-      height: auto;
-      width: auto;
-    }
-    .heroflex{
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-    }
-    .text{
-      margin-left: 0px;
-    }
-    .text .image{
-      position: static;
+     .hero-ctn h1{
+      font-size: 50px;
     }
 }
-@media screen and (max-width:365px){
-  .header nav ul{
-        display: none !important;
-        display: flex;
-        height: auto;
-        position: fixed;
-        top: 0;
-        left:-100vW;
-        width: 100%;
-        background: grey;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        transition: 0.3s;
-        opacity: 0;
-    }
-    .header nav ul.toggled{
-      opacity: 1;
-      left: 0;
-    }
-    .toggle-bt{
-    display: flex;
-    z-index: 100;       
-    }
-    #hero{
-      height: auto;
-      width: auto;
-    }
-    .heroflex{
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-    }
-    .text{
-      margin-left: 0px;
-    }
-    .text .image{
-      position: static;
+
+     
+@media screen and (max-width:355px){
+  #hero{
+      height: 100%;
+      width: 100%;
+      background-size: cover;
     }
 
 
+    .hero-ctn h1{
+      font-size: 50px;
+    }
     
   
 }

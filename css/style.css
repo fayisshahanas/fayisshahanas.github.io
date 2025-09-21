@@ -142,35 +142,7 @@ header .btn-primary {
         }
 
 
-/* .insta{
-    
-    background: linear-gradient(1deg,#A999B6,white);
-    border-radius: 100%;
-    padding: 13px 15px;
-    border:1px solid #5E3F78;
-}
-.li{
-    
-    background: linear-gradient(1deg,#A999B6,white);
-    border-radius: 100%;
-    padding: 13px 15px;
-    border:1px solid #5E3F78;
-}
-.git{
-   
-    background: linear-gradient(1deg,#A999B6,white);
-    border-radius: 100%;
-    padding: 13px 15px;
-    border:1px solid #5E3F78;
 
-}
-.wapp{
-    
-    background: linear-gradient(1deg,#A999B6,white);
-    border-radius: 100%;
-    padding: 13px 15px;
-    border:1px solid #5E3F78;
-} */
 .hero-ctn .icon i{
     font-size: 20px;
     color: #5E3F78;
@@ -196,17 +168,7 @@ header .btn-primary {
     height: 80px;
 }
 
-@keyframes moveGradient{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position:100% 50%;
-    }
-    100%{
-        background-position:0% 50%;
-    }
-}
+
 .hero-ctn i{
     font-size: 15px;
 }
