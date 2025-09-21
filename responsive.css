@@ -87,6 +87,7 @@
   #hero{
       height: auto;
       width: auto;
+      background-size: cover;
     }
     
      .hero-ctn h1{
