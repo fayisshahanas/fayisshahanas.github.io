@@ -3,7 +3,7 @@
       position: static;
     }
     #hero{
-      height: auto;
+      height: 100vh;
     }
    
     .text{
@@ -27,6 +27,9 @@
   nav ul{
     gap:19px;
   }
+  #hero{
+      height: auto;
+    }
  .text .image {
         position: static;
         display: flex;
@@ -35,7 +38,7 @@
         margin-top: 30px;
     }
     .hero-image img{
-      width: 100px;
+   
       width: 300px;
     }
     .hero-ctn{
@@ -68,7 +71,7 @@
     }
     #hero{
       height: auto;
-      width: auto;
+      width: 100%;
     }
     .heroflex{
       display: flex;
@@ -86,7 +89,7 @@
 @media screen and (max-width:575px){
   #hero{
       height: auto;
-      width: auto;
+      width: 100%;
       background-size: cover;
     }
     
