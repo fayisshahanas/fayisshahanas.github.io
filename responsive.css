@@ -96,13 +96,18 @@
      .hero-ctn h1{
       font-size: 50px;
     }
+    #about{
+     background-color: #ffffff ;
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
 }
 
-     
-@media screen and (max-width:355px){
+}  
+@media screen and (max-width:365px){
   #hero{
       height: 100%;
-      width: 100%;
+      width: 468%;
       background-size: cover;
     }
 
@@ -110,6 +115,17 @@
     .hero-ctn h1{
       font-size: 50px;
     }
-    
+    #about{
+     background-color: #ffffff ;
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+}
+ .text .image {
+        position: static;
+        display: block;
+        
+        margin-top: 30px;
+    }
   
 }
