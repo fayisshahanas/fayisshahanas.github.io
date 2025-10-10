@@ -50,10 +50,11 @@
         display: none !important;
         display: flex;
         height: auto;
+        
         position: fixed;
         top: 0;
         left:-100vW;
-        width: 100%;
+        width: 100vh;
         background: grey;
         align-items: center;
         justify-content: center;
@@ -71,7 +72,7 @@
     }
     #hero{
       height: auto;
-      width: 100%;
+      width: 100vh;
     }
     .heroflex{
       display: flex;
@@ -89,7 +90,7 @@
 @media screen and (max-width:575px){
   #hero{
       height: auto;
-      width: 100%;
+      width: 100vh;
       background-size: cover;
     }
     
@@ -102,12 +103,18 @@
      height: 100%;
      border-radius: 20px;
 }
+  .timeline a{
+    padding: 10px;
+  }
 
+      .main .content:before{
+        height: 50px;
+      }
 }  
 @media screen and (max-width:365px){
   #hero{
       height: 100%;
-      width: 468px;
+      width: 100vh;
       background-size: cover;
     }
 
