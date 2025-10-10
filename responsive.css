@@ -4,6 +4,7 @@
     }
     #hero{
       height: 100vh;
+      width: 100vh;
     }
    
     .text{
@@ -22,6 +23,9 @@
     .text .image{
       position: static;
     }
+    #hero{
+      width: 100%;
+    }
 }
 @media screen and (max-width:995px){
   nav ul{
@@ -29,6 +33,7 @@
   }
   #hero{
       height: auto;
+      width: 100%;
     }
  .text .image {
         position: static;
@@ -53,8 +58,8 @@
         
         position: fixed;
         top: 0;
-        left:-100vW;
-        width: 100vh;
+        
+        width: 100%;
         background: grey;
         align-items: center;
         justify-content: center;
@@ -70,10 +75,7 @@
     display: flex;
     z-index: 100;       
     }
-    #hero{
-      height: auto;
-      width: 100vh;
-    }
+   
     .heroflex{
       display: flex;
       justify-content: space-around;
