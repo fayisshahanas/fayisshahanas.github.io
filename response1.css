@@ -1,0 +1,112 @@
+@media screen and (max-width:1200px){
+.text {
+  
+   margin-left: 90px;
+   
+}
+}
+@media  screen and (max-width:991px) {
+    .text .image {
+    position: absolute;
+    left: -56%;
+    top: -3%;
+}
+.project-ctn {
+    display: flex;
+    height: 100%;
+    width: 800px;
+    margin-left: -50px;
+}
+    .text {
+    margin-left: 215px;
+   padding: 22px;
+    margin-right: -88px;
+}
+.icon-position {
+    display: flex;
+    height: 400px;
+    width: 239px;
+    margin-top: 90px;
+}
+}
+
+@media screen and (max-width:762px){
+      .header nav ul{
+        display: none !important;
+        display: flex;
+        height: auto;
+        
+        position: fixed;
+        top: 0;
+        
+        width: 100%;
+        background: grey;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.3s;
+        opacity: 0;
+    }
+    .header nav ul.toggled{
+      opacity: 1;
+      left: 0;
+    }
+    .toggle-bt{
+    display: flex;
+    z-index: 100;       
+    }
+    .header{
+        display: none;
+    }
+    .icon-position{
+        display: none;
+    }
+   .hero-ctn {
+    padding-top: 150px;
+}
+.text .image {
+   display: none;
+}
+.text {
+    margin-left: 4px;
+    padding: 22px;
+    margin-right: 5px;
+}
+.main .timeline {
+  width: 0;
+
+}
+.main .timeline-content, .main .timeline:nth-child(even) .content {
+    /* padding: 15px 10px 175px 10px; */
+}
+   
+}
+
+
+@media  screen and (max-width:567px) {
+    .header nav ul{
+        display: none !important;
+        display: flex;
+        height: auto;
+        
+        position: fixed;
+        top: 0;
+        
+        width: 100%;
+        background: grey;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.3s;
+        opacity: 0;
+    }
+    .header nav ul.toggled{
+      opacity: 1;
+      left: 0;
+    }
+    .toggle-bt{
+    display: flex;
+    z-index: 100;       
+    }
+
+}
