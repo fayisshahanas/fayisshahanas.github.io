@@ -1,6 +1,13 @@
 body{
     background-color:#ffffff;
+    font-size: 20px;
+  
 }
+
+.mt-md-5 {
+    margin-top: 3rem!important;
+}
+
 /* header */
 header{
     position: fixed;
@@ -8,7 +15,8 @@ header{
     color: white;
     z-index: 100;
     top: 10px; 
-    
+    /* font-size: 20px; */
+    padding: 15px 60px;
     
    
 
@@ -28,9 +36,10 @@ header{
     align-items: center;
     justify-content:space-between;
     height: 60px;
-    background-color: rgba(255, 255, 255, 0.951);
+    background-color: rgba(255, 255, 255, 0.714);
+        backdrop-filter: blur(10px);
     border-radius: 10px;
-    padding: 5px 13px;
+    padding: 40px 12px;
     box-shadow:#d0c7d894 0px 0px 7px 1px;
 }
 
@@ -59,6 +68,7 @@ header .btn-primary {
             background-color:#5E3F78 ;
             color: white;
             border: 2px solid #5E3F78;
+            padding: 10px 30px;
         }
 
           .btn-primary:hover {
@@ -71,13 +81,13 @@ header .btn-primary {
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 8px;  
+    gap: 11px;  
 }
 .toggle-bt div{
     position: relative;
     transition: 0.3s;
     height: 8px;
-    width: 30px;
+    width: 40px;
     background: black;
 }
 
@@ -103,11 +113,13 @@ header .btn-primary {
 #hero{
     height: 100vh;
     background-color: #f2e9fa ;
+    background-image: url(/img/hero-frame.png);
     position: relative;
     background-size: cover;
     width: 100%;
     border-radius:0px 0px 30px 30px; 
     margin-top: -80px;
+    
 }
 .hero-ctn span{
     color: #5E3F78;
@@ -120,8 +132,12 @@ header .btn-primary {
     font-size: 30px;
 }
 .hero-image{
-    padding-top: 50px;
+    padding-top: 100px;
 
+}
+.icon-position img{
+    width: 80%;
+    height: 100%;
 }
 
 .hero-ctn .icon{
@@ -131,7 +147,7 @@ header .btn-primary {
 
 
 .hero-ctn  .btn-primary{
-            padding: 5px 5px;
+            padding: 10px 30px;
             
             background-color:#5E3F78 ;
             color: white;
@@ -159,6 +175,7 @@ border: #5E3F78 solid 1px;
 .heroflex{
     display: flex;
     justify-content: space-around;
+   
 }
 .hero-ctn h1{
     background: linear-gradient(1deg,#5E3F78,#ff8fe5);
@@ -422,19 +439,19 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
             color: #5E3F78;
         }
 .text{
-    position: relative;
+    /* position: relative; */
     background-color: white;
-    padding: 80px;
-    width: fit-content;
-    margin-left: 400px;
+    padding: 80px 40px;
+        /* width: 100%; */
+    /* margin-left: 400px; */
     border-radius: 20px;
     margin-bottom: 30px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15); ;
 }
-.text .image{
+.text .image {
     position: absolute;
-    left: -35%;
-    top: 4%
+    left: -42%;
+    top: 10%;
 }
 .about-me .cta-btn{
     background: linear-gradient(1deg,white,#f2e9fa);
@@ -692,12 +709,16 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 
 
 /* project        */
+#project{
+    background-color: #5E3F78;
+}
 .project-ctn{
     display: flex;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #5E3F78;
+    
     border-radius: 20px;
     padding:30px 20px ;
 }
