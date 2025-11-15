@@ -307,8 +307,16 @@
     width: 450px;
 }
 
-
-
+@media screen and (max-width:424px){
+#hero {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.project-ctn .view {
+    width: 54%;
+}
+}
 
 }
 @media screen and (max-width:365px){
@@ -356,14 +364,24 @@
     height: 70px;
     padding: 30px 13px;
 }
+.project-ctn{
+    width: 324px;
+}
 .project-ctn .view {
-    width: 49%;
+    width: 49%; 
+    padding: 10px 100px;
+}
+
+.work img {
+    width: 90%;
 }
 .skills-ctn .apps {
-   
-    width: 449px;
+    width: 335px;
 }
-.work img {
-    width: 65%;
 }
+
+@media screen and (max-width: 365px) {
+    .project-ctn .view {
+        width  : 51%;
+    }
 }
