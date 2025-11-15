@@ -1,6 +1,4 @@
-/* /* ----------------------------------------
-   MAX-WIDTH: 1200px  (1400 + 1200 merged)
----------------------------------------- */
+
 @media screen and (max-width:1200px){
 
     .text {
@@ -9,14 +7,6 @@
                 max-width:100%;
 
     }
-
-    /* .text .image {
-        position:absolute;
-        left:-43%;
-        top:14%;
-    } */
-
-    /* Mobile nav start */
     .header nav ul{
         display:none !important;
 
@@ -32,7 +22,7 @@
         opacity:1;
         left:0;
     }
-    /* Mobile nav end */
+   
 
     #hero{
         padding-top:0;
@@ -43,11 +33,7 @@
         justify-content:space-between;
         
     }
-/* 
-    .text .image{
-        left:-50%;
-        top:8%;
-    } */
+
 
     .icon-position img{
         width:400px;
@@ -59,9 +45,6 @@
     }
 }
 
-/* ----------------------------------------
-   MAX-WIDTH: 1024px (merged 1130px)
----------------------------------------- */
 @media screen and (max-width:1024px){
 
     .text{
@@ -83,9 +66,7 @@
     }
 }
 
-/* ----------------------------------------
-   MAX-WIDTH: 992px (old 991px)
----------------------------------------- */
+
 @media screen and (max-width:992px){
 
     .toggle-bt{ display:flex; }
@@ -109,7 +90,13 @@
         padding-top:215px;
         width:92%;
     }
-
+.hero-image {
+    padding-top: 140px;
+}
+.icon-position img {
+    width: 360px;
+    height: 100%;
+}
     .heroflex{
         display:flex;
         justify-content:space-between;
@@ -126,23 +113,17 @@
         width:450px;
         padding:40px;
     }
-/* 
-    .text .image{
-        left:-51%;
-        top:9%;
-    } */
+
 
     .foot1,.contact{ font-size:16px; }
     .foot2{ font-size:15px; }
 }
 
-/* ----------------------------------------
-   MAX-WIDTH: 768px (merge: 767 + 567)
----------------------------------------- */
+
 @media screen and (max-width:768px){
 
     .header nav ul{
-        display:none !important;
+       
         position:fixed;
         top:0;
         width:100%;
@@ -181,18 +162,15 @@
     .work img{ width:93%; }
 }
 
-/* ----------------------------------------
-   MAX-WIDTH: 480px (merge: 424 + 365 + 325)
----------------------------------------- */
 @media screen and (max-width:480px){
 
     #hero{
         width:100%;
-        height:auto;
+      
     }
 
     .text{
-        max-width:100%;
+        width:auto;
         padding:22px;
         margin-left:4px;
     }
