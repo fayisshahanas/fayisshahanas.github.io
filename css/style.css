@@ -94,9 +94,10 @@ header .btn-primary {
 .toggle-bt.toggled div:nth-child(1){
     transform: rotate(45deg);
     top:10px;
+    
 }
 .toggle-bt.toggled div:nth-child(2){
-    transform: trasnslateX(100vw);
+     transform: translateX(100vw);
     opacity: 0;
 }
 .toggle-bt.toggled div:nth-child(3){
@@ -699,6 +700,8 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     border-radius: 20px;
     padding: 30px;
     height: 180px;
+    display: flex;
+    justify-content: center;
 
 }
 .skills-ctn .apps:hover {
