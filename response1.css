@@ -363,4 +363,7 @@
    
     width: 449px;
 }
+.work img {
+    width: 65%;
+}
 }
