@@ -268,6 +268,9 @@
       width: 93%;
       background-size: cover;
     }
+    .heroflex{
+        margin-left: 60px;
+    }
     .toggle-bt{
     display: flex;
     z-index: 100;       
@@ -283,6 +286,9 @@
     height: 100%;
     width: 450px;
     margin-left: 9px;
+}
+.work img {
+    width: 70%;
 }
 .project-ctn .view {
     padding: 10px 120px;
@@ -350,8 +356,8 @@
     height: 70px;
     padding: 30px 13px;
 }
-.project-ctn .view{
-    width: 70%;
+.project-ctn .view {
+    width: 49%;
 }
 .skills-ctn .apps {
    
