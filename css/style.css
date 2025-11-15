@@ -3,6 +3,10 @@ body{
     font-size: 20px;
   
 }
+html, body {
+    overflow-x: hidden;
+}
+
 
 .mt-md-5 {
     margin-top: 3rem!important;
@@ -449,11 +453,7 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     margin-bottom: 30px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15); ;
 }
-.text .image {
-    position: absolute;
-    left: -42%;
-    top: 10%;
-}
+
 .about-me .cta-btn{
     background: linear-gradient(1deg,white,#f2e9fa);
     padding: 5px 10px;
@@ -699,6 +699,8 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
     background-color: #f2e9fa;
     border-radius: 20px;
     padding: 30px;
+        margin-bottom: 10px;
+
     height: 180px;
     display: flex;
     justify-content: center;
