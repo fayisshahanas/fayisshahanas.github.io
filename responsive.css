@@ -53,7 +53,14 @@
         padding:80px 40px;
         font-size:18px;
     }
-
+.icon-position img {
+    width: 380px;
+    height: 100%;
+}
+.heroflex {
+    display: flex;
+    justify-content: center;
+}
     /* .text .image{
         left:-43%;
         top:8%;
@@ -142,7 +149,9 @@
         opacity:1;
         left:0;
     }
-
+  .heroflex {
+        margin-left: 53px;
+    }
     .toggle-bt{ display:flex; }
 
     .icon-position{ display:none; }
@@ -177,7 +186,9 @@
       
     }
     .hero-ctn h1 {
-        font-size: 50px;
+        font-size: 53px;
+       
+        height: 145px;
     }
      .heroflex {
         margin-left: 60px;

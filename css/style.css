@@ -25,7 +25,10 @@ header{
    
 
 }
-.header ul li:hover a {
+header ul li a{
+    padding: 5px;
+}
+.header ul li a:hover {
     color: #5E3F78;
     text-decoration: underline;
     padding: 5px;
@@ -189,7 +192,7 @@ border: #5E3F78 solid 1px;
     animation: moveGradient 5s infinite;
     font-weight: 600;
     font-size: 60px;
-    height: 80px;
+    height: 100%;
 }
 
 
