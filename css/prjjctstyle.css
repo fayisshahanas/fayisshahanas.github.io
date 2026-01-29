@@ -1,0 +1,46 @@
+.project-ctn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 20px;
+    padding:30px 20px ;
+}
+.project-ctn img{
+    border-radius: 20px;
+    width: 85%;
+   
+}
+.project-ctn .work{
+    position: relative;
+}
+.project-ctn .view{
+    position: absolute;
+    left: 32px;
+    bottom: 28px;
+    z-index: 100;
+    background-color: #5e3f78cf;
+    padding: 10px 132px;
+    color: white;
+    border-radius: 10px;
+
+}
+.project-ctn .work:hover .view{
+    background-color:white;
+    border:1px solid #5E3F78;
+    color: #5E3F78;
+
+}
+.project-ctn h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 44px;
+    color: white;
+    
+}
+.project-ctn{
+    height: 100%;
+}

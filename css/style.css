@@ -20,7 +20,7 @@ header{
     z-index: 100;
     top: 10px; 
     /* font-size: 20px; */
-    padding: 15px 60px;
+    padding: 10px 0px;
     
    
 
@@ -46,7 +46,8 @@ header ul li a{
     background-color: rgba(255, 255, 255, 0.714);
         backdrop-filter: blur(10px);
     border-radius: 10px;
-    padding: 40px 12px;
+    padding: 35px 25px;
+    gap: 60px;
     box-shadow:#d0c7d894 0px 0px 7px 1px;
 }
 
@@ -72,6 +73,7 @@ a{
 }
 
 header .btn-primary {
+    width: 60%;
             background-color:#5E3F78 ;
             color: white;
             border: 2px solid #5E3F78;
@@ -785,6 +787,18 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 .project-ctn{
     height: 100%;
 }
+ .project-btn{
+            padding: 10px 40px;
+            border-radius: 10px;
+            background-color:#ffffff ;
+            color: white;
+            border: 2px solid #5E3F78;
+        }
+
+          .hero-ctn  .btn-primary:hover {
+            background-color: #b892da;
+            border-color: purple;
+        }
 /* contact */
 #Contact{
     background-color:  #f2e9fa;
