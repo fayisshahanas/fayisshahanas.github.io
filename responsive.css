@@ -140,7 +140,9 @@
         margin-top: -132px;
         height: 100vh;
     }
-
+    .heropic{
+        display: none;
+    }
     .hero-ctn {
         padding-top: 215px;
         width: 92%;
