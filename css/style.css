@@ -187,6 +187,7 @@ header .btn-primary {
           .hero-ctn  .btn-primary:hover {
             background-color: #f2e9fa;
             border-color: purple;
+            color: #5E3F78;
         }
 
 
@@ -367,6 +368,8 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 }
 .section-services img{
     background-color: white;
+    width: 38px;
+    border-radius: 5px;
     padding: 2px;
     background-origin: 5px;
 }
@@ -665,30 +668,37 @@ p,a,h1,h2,h3,h4,h5,h6,ul,li {
 
             .main .timeline-content,
             .main .timeline:nth-child(even) .content {
-                padding: 15px 10px 175px 10px;
+               
+                 padding: 65px 25px 25px 25px;
             }
 
             .main .content:before,
             .main .timeline:nth-child(even) .content:before {
-                width: 100%;
+                
+                width: 0%;
                 height: 123px;
                 border-left-width: 0;
                 border-right-width: 0;
                 border-top-width: 30px;
                 top: auto;
                 bottom: 0;
+               
             }
-
+            .main .content{
+                 padding: 65px 25px 25px 25px;
+            }
             .main .year,
             .main .timeline:nth-child(even) .year {
+                color: #5E3F78;
                 transform: translateX(-50%) translateY(0) rotate(0deg);
-                top: auto;
-                bottom: 10px;
+                top: 10px;
+                bottom: auto;
                 left: 50%;
             }
 
             .main .icon,
             .main .timeline:nth-child(even) .icon {
+                display: none;
                 box-shadow: -1px -1px 0px #fff inset, 0 0 8px rgba(0, 0, 0, 0.4);
                 transform: translateX(-50%) translateY(0);
                 top: auto;
